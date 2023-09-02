@@ -7,7 +7,11 @@ interface LargeCardProps {
   description: string;
 }
 
-export const LargeCard: React.FC<LargeCardProps> = ({ id, title, description }) => {
+export const LargeCard: React.FC<LargeCardProps> = ({
+  id,
+  title,
+  description,
+}) => {
   return (
     <Link href={`/service/${id}`}>
       <div className="block w-full bg-gray-800 rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-200 ease-in cursor-pointer text-white">
