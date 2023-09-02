@@ -10,7 +10,8 @@ const ServiceDetail = () => {
       <section className="text-center py-16 bg-blue-800 text-white">
         <h1 className="text-4xl mb-4">Welcome to Service {id}</h1>
         <p className="text-lg max-w-2xl mx-auto">
-          This is a great place to introduce the service to the user. Describe what problems this service solves and how it can help the user.
+          This is a great place to introduce the service to the user. Describe
+          what problems this service solves and how it can help the user.
         </p>
       </section>
 
@@ -20,15 +21,15 @@ const ServiceDetail = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           <div className="bg-gray-800 p-6 rounded-lg shadow-lg">
             <h3 className="text-xl font-semibold mb-4">Feature 1</h3>
-            <p>Explain what this feature does and why it's important.</p>
+            <p>Explain what this feature does and why it is important.</p>
           </div>
           <div className="bg-gray-800 p-6 rounded-lg shadow-lg">
             <h3 className="text-xl font-semibold mb-4">Feature 2</h3>
-            <p>Explain what this feature does and why it's important.</p>
+            <p>Explain what this feature does and why it is important.</p>
           </div>
           <div className="bg-gray-800 p-6 rounded-lg shadow-lg">
             <h3 className="text-xl font-semibold mb-4">Feature 3</h3>
-            <p>Explain what this feature does and why it's important.</p>
+            <p>Explain what this feature does and why it is important.</p>
           </div>
         </div>
       </section>
@@ -36,4 +37,4 @@ const ServiceDetail = () => {
   );
 };
 
-export default ServiceDetail
+export default ServiceDetail;

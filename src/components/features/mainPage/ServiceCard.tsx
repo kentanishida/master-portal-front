@@ -1,4 +1,4 @@
-import {LargeCard} from '../../_grobals/LargeCard'
+import { LargeCard } from '../../_grobals/LargeCard';
 
 interface ServiceCardProps {
   id: string;
@@ -6,7 +6,6 @@ interface ServiceCardProps {
   description: string;
 }
 
-export const ServiceCard = (props:ServiceCardProps) => {
-
-return <LargeCard {...props}/>
-}
+export const ServiceCard = (props: ServiceCardProps) => {
+  return <LargeCard {...props} />;
+};
